@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aprende Español con Carlos</title>
+    <link rel="icon" type="image/png" href="assets/images/favicon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <div class="language-selector">
+        <select id="languageSelect">
+            <option value="es">Español</option>
+            <option value="en">English</option>
+            <option value="pt">Português</option>
+        </select>
+    </div>
+    <header class="header-promo">
+        <h1>¡Domina el Español con un Profesor Nativo!</h1>
+        <p>Curso personalizado para alcanzar la fluidez que necesitas</p>
+    </header>
+
+    <main>
+        <!-- Primera sección: Oferta y Formulario -->
+        <section class="hero-section">
+            <div class="offer-column">
+                <h2>Aprende Español de manera efectiva y en poco tiempo</h2>
+                <p>Hablar español ahora es más fácil y sin presiones.</p>
+                <ul class="benefits">
+                    <li>Clases personalizadas y grupales.</li>
+                    <li>Material didáctico exclusivo.</li>
+                    <li>Práctica conversacional intensiva.</li>
+                </ul>
+            </div>
+            <div class="form-column">
+                <div class="countdown-section">
+                    <h3 data-translate="countdown-heading">Próxima clase comienza en:</h3>
+                    <div class="countdown-container">
+                        <div class="countdown-item">
+                            <span id="days">00</span>
+                            <span class="countdown-label" data-translate="days-label">Días</span>
+                        </div>
+                        <div class="countdown-item">
+                            <span id="hours">00</span>
+                            <span class="countdown-label" data-translate="hours-label">Horas</span>
+                        </div>
+                        <div class="countdown-item">
+                            <span id="minutes">00</span>
+                            <span class="countdown-label" data-translate="minutes-label">Minutos</span>
+                        </div>
+                        <div class="countdown-item">
+                            <span id="seconds">00</span>
+                            <span class="countdown-label" data-translate="seconds-label">Segundos</span>
+                        </div>
+                    </div>
+                </div>
+                <form id="contact-form">
+                    <input type="text" id="nombre" name="nombre" placeholder="Tu nombre completo" required>
+                    <input type="tel" id="telefono" name="telefono" placeholder="Tu teléfono" required>
+                    <input type="email" id="email" name="email" placeholder="Tu correo electrónico" required>
+                    <button type="submit">Únete a nuestra comunidad de WhatsApp</button>
+                </form>
+            </div>
+        </section>
+
+        <!-- Segunda sección: Características del curso -->
+        <section class="features-section">
+            <div class="feature">
+                <i class="fas fa-chalkboard-teacher"></i>
+                <h3>Metodología</h3>
+                <p>Enfoque comunicativo y práctico. Aprenderás de forma didáctica y sin dificultades.</p>
+            </div>
+            <div class="feature">
+                <i class="fas fa-calendar-alt"></i>
+                <h3>Flexibilidad</h3>
+                <p>Horarios adaptados a ti para que estudies a tu propio ritmo. Cada clase será adecuada a tus necesidades.</p>
+            </div>
+            <div class="feature">
+                <i class="fas fa-chart-line"></i>
+                <h3>Seguimiento</h3>
+                <p>Realizarás evaluaciones continuas para progresar en tu estudio, además de participar en una comunidad que compartirá sus experiencias de aprendizaje.</p>
+            </div>
+            <div class="feature">
+                <i class="fas fa-award"></i>
+                <h3>Certificación</h3>
+                <p>Recibirás una sólida preparación si deseas presentar los exámenes de certificación: SIELE, DELE, CEA.</p>
+            </div>
+        </section>
+
+        <!-- Nueva sección: Carrusel de América Latina -->
+        <section class="carousel-section">
+            <h2>Descubre América Latina</h2>
+            <p>Imagina recorrer estos destinos mágicos hablando español con fluidez. Conecta con la gente local, descubre secretos culturales y vive experiencias auténticas que solo el dominio del idioma te puede brindar.</p>
+            <div class="carousel-container">
+                <button class="carousel-button prev">
+                    <i class="fas fa-chevron-left"></i>
+                </button>
+                
+                <div class="carousel-track">
+                    <div class="carousel-slide">
+                        <img src="assets/images/carousel/machu-picchu.jpg" alt="Machu Picchu, Perú">
+                        <div class="carousel-caption">Machu Picchu, Perú</div>
+                    </div>
+                    <div class="carousel-slide">
+                        <img src="assets/images/carousel/caminito.jpg" alt="Buenos Aires, Argentina">
+                        <div class="carousel-caption">Caminito, Buenos Aires, Argentina</div>
+                    </div>
+                    <div class="carousel-slide">
+                        <img src="assets/images/carousel/xochimilco.jpg" alt="Ciudad de México">
+                        <div class="carousel-caption">Lago de Xochimilco, México</div>
+                    </div>
+                    <div class="carousel-slide">
+                        <img src="assets/images/carousel/cartagena.jpg" alt="Cartagena, Colombia">
+                        <div class="carousel-caption">Cartagena, Colombia</div>
+                    </div>
+                    <div class="carousel-slide">
+                        <img src="assets/images/carousel/sanjuan.jpg" alt="Cartagena, Colombia">
+                        <div class="carousel-caption">San Juan, Puerto Rico</div>
+                    </div>
+                </div>
+
+                <button class="carousel-button next">
+                    <i class="fas fa-chevron-right"></i>
+                </button>
+            </div>
+        </section>
+
+        <!-- Tercera sección: Sobre el profesor -->
+        <section class="about-section">
+            <div class="bio-column">
+                <h2>¿Quién soy yo?</h2>
+                <p>¡Hola! Soy Carlos Reges, profesor titulado en Lengua Española y Literatura con más de 15 años de experiencia docente. Mi pasión es compartir el idioma español a través de una metodología dinámica que incluye ejercicios prácticos, conversaciones interactivas y actividades culturales diseñadas específicamente para optimizar tu proceso de aprendizaje. Mi enfoque personalizado te ayudará a desarrollar fluidez y confianza en el uso del español.</p>
+
+            </div>
+            <div class="photo-column">
+                <img src="/assets/images/profesor-carlos.png" alt="Profesor Carlos">
+            </div>
+        </section>
+    </main>
+
+    <!-- Botón de llamada a la acción -->
+    <div class="cta-button-container">
+        <button id="participateButton" class="participate-button">
+            <i class="fas fa-arrow-up"></i>
+            Quiero participar en el curso
+        </button>
+    </div>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">
+                <img src="assets/images/logo.png" alt="Logo Aprende Español con Carlos" class="footer-logo-img">
+            </div>
+            <div class="footer-text">
+                <p>© 2024 Aprende con Carlos. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+    <script src="./script.js"></script>
+</body>
+</html>
