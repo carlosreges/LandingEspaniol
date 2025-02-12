@@ -148,6 +148,8 @@ button:hover {
     grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* Crea columnas responsivas */
     gap: 1.5rem; /* Espaciado entre las características */
     padding: 2rem var(--spacing);
+    max-width: 1200px; /* Añade un ancho máximo */
+    margin: 0 auto; /* Centra la sección */
 }
 
 .feature {
