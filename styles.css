@@ -603,6 +603,11 @@ footer {
     .hero-section {
         grid-template-columns: 1fr;
         padding: 1.5rem var(--spacing);
+        background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+                    url('assets/images/obelisco.jpg');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
     }
     
     .form-column {
