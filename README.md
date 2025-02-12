@@ -6,9 +6,6 @@ En esto momentos la utilizo para mi curso de Español para extranjeros.
 ## 🚀 Demo en Vivo
 🔗 [Ver la página aquí](https://landing.aprendeconcarlos.com.ar/)  
 
-## 📸 Captura de Pantalla
-![Preview de la Landing Page](ruta/a/tu/captura.png)
-
 ## 🛠️ Tecnologías Usadas
 - **HTML5**  
 - **CSS3**  
