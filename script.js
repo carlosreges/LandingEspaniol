@@ -20,7 +20,7 @@ document.addEventListener('DOMContentLoaded', function() {
         const email = document.getElementById('email').value;
         
         // Aquí puedes agregar la URL de tu grupo de WhatsApp
-        const whatsappURL = 'https://chat.whatsapp.com/tu-enlace-de-invitacion';
+        const whatsappURL = 'https://chat.whatsapp.com/DcqqRNGsulU7YxtWow1UiJ';
         
         // Redirigir al usuario al grupo de WhatsApp
         window.location.href = whatsappURL;
